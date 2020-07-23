@@ -1,0 +1,59 @@
+:root {
+  --accent-color: #0075ff;
+}
+.bg-elts {
+  background-image: url("../images/Ellipse 2.svg"),
+    url("../images/Ellipse 1.svg"), url("../images/Polygon 2.svg"),
+    url("../images/Polygon 1.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left 10% top -8%, left -5% bottom -33%,
+    right -24% top -0%, right -6% top -4%;
+  background-size: 42%, 23%, 30%, 20%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.f-12 {
+  font-size: 12px;
+  line-height: 15px;
+}
+.f-18 {
+  font-size: 18px;
+  line-height: 21px;
+}
+.f-24 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.f-36 {
+  font-size: 36px;
+  line-height: 45px;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.f-dark {
+  color: #181818;
+}
+.f-light {
+  color: #7c7c7c;
+}
+.f-accent {
+  color: var(--accent-color);
+}
+.signup-btn {
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: var(--accent-color);
+}
+input.form-control {
+  border-radius: 8.26px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 65px;
+  background-color: rgba(232, 226, 226, 0.44);
+}
