@@ -37,10 +37,10 @@
 
               <div class="d-flex flex-column align-items-center px-4">
                 <div
-                  style="width: 100%; max-width: 560px; padding: 0 15px;"
-                  class="social-signin d-flex flex-column flex-md-row justify-content-around"
+                  style="width: 100%; max-width: 560px;"
+                  class="social-signin d-flex flex-column flex-lg-row justify-content-around"
                 >
-                  <a href="#" class="btn btn-primary h-100 my-3 my-md-0">
+                  <a href="#" class="btn btn-primary h-100 mb-3 my-lg-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -106,34 +106,48 @@
                 <form action="#" style="width: 100%; max-width: 560px;">
                   <div class="form-row">
                     <div class="form-group mb-3 col-md-6">
-                      <label class="f-18 f-light" for="firstNameField"
+                      <label class="f-14 f-light" for="firstNameField"
                         >First Name</label
                       >
-                      <input type="text" class="form-control" id="firstName" />
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        required
+                      />
                     </div>
                     <div class="form-group mb-3 col-md-6">
-                      <label class="f-18 f-light" for="lastNameField"
+                      <label class="f-14 f-light" for="lastNameField"
                         >Last Name</label
                       >
-                      <input type="text" class="form-control" id="lastName" />
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        required
+                      />
                     </div>
                   </div>
 
                   <div class="form-group mb-3">
-                    <label class="f-18 f-light" for="genderField">Gender</label>
+                    <label class="f-14 f-light" for="genderField">Gender</label>
 
                     <select
                       aria-describedby="Gender"
                       name="Gender"
                       id="genderField"
                       class="form-control"
+                      required
                     >
+                      <option value="none" selected disabled hidden>
+                        Select an Option
+                      </option>
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
                     </select>
                   </div>
                   <div class="form-group mb-3">
-                    <label class="f-18 f-light" for="emailField">Email</label>
+                    <label class="f-14 f-light" for="emailField">Email</label>
                     <input
                       type="email"
                       class="form-control"
@@ -143,7 +157,7 @@
                     />
                   </div>
                   <div class="form-group mb-3">
-                    <label class="f-18 f-light" for="passwordField"
+                    <label class="f-14 f-light" for="passwordField"
                       >Password</label
                     >
                     <input
@@ -155,7 +169,7 @@
                     <i class="fas fa-eye pa-eye togglePassword"></i>
                   </div>
                   <div class="form-group mb-3">
-                    <label class="f-18 f-light" for="confirmPasswordField"
+                    <label class="f-14 f-light" for="confirmPasswordField"
                       >Confirm Password</label
                     >
                     <input
@@ -174,7 +188,7 @@
                       required
                     />
                     <label
-                      class="f-18 f-light"
+                      class="f-14 f-light"
                       class="sr-only-label f-12"
                       class="form-check-label"
                       for="exampleCheck1"
@@ -186,7 +200,7 @@
                   <div class="text-center">
                     <button
                       type="submit"
-                      class="btn btn-primary signup-btn f-24 fw-600"
+                      class="btn btn-primary signup-btn f-18 fw-600"
                     >
                       Sign Up
                     </button>
