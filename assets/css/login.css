@@ -49,11 +49,24 @@
   font-weight: 600;
   background-color: var(--accent-color);
 }
-input.form-control {
+input.form-control,
+select.form-control {
   border-radius: 8.26px;
   border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   height: 65px;
   background-color: rgba(232, 226, 226, 0.44);
+  font-size: 18px;
+  line-height: 21px;
+}
+.pa-eye {
+  color: #d0c9d6;
+  cursor: pointer;
+  right: 2%;
+  position: absolute;
+  top: 60%;
+}
+.form-group {
+  position: relative;
 }
